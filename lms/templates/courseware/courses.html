@@ -12,6 +12,7 @@
 <%namespace name='static' file='../static_content.html'/>
 <%block name="js_extra">
   <script type="text/javascript" src="${static.url('common/js/vendor/bootstrap.bundle.js')}"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-k6RqeWeci5ZR/Lv4MR0sA0FfG4vqlm2Xf3cl5iVldK7F5w3T/A2C4Hc8QK/8N+5ZT0h+ZmHo3wD1Xwz2Vgrw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </%block>
 % if course_discovery_enabled:
 <%block name="header_extras">
@@ -43,23 +44,27 @@
         <div class="course-heading-area">
           <!-- <h2>Unlock Your Potential: Discover New Courses Today!</h2>
           <p>Explore a world of knowledge and enhance your skills with our diverse range of courses</p> -->
-          <!-- <img src="https://i.pinimg.com/564x/da/72/d9/da72d9004f30dbefd428309696f8cefb.jpg"/> -->
+          <!-- <img src="https://i.pinimg.com/564x/da/72/d9/da72d9004f30dbefd428309696f8cefb.jpg"/> 
+            
+
+
+-->
           <div class="slider">
             <div class="list">
                 <div class="item">
-                    <img src="https://www.openedu.tw/media/img/index/banner/banner1_6vBDW1e.png" alt="">
+                  <img src="https://i.ibb.co/M9V4XsG/SET-TVU.png" alt="SET-TVU" border="0">
                 </div>
                 <div class="item">
-                    <img src="https://www.openedu.tw/media/img/index/banner/banner3_D79RcBi.png" alt="">
+                  <img src="https://i.ibb.co/gRQXMdj/4.png" alt="4" border="0">
                 </div>
                 <div class="item">
-                    <img src="https://www.openedu.tw/media/img/index/banner/ID-02.jpg" alt="">
+                  <img src="https://i.ibb.co/4fVWJv7/3.png" alt="3" border="0">
                 </div>
                 <div class="item">
-                    <img src="https://www.openedu.tw/media/img/index/banner/banner2_FRMIAiM.png" alt="">
+                  <img src="https://i.ibb.co/2YxQn78/2.png" alt="2" border="0">
                 </div>
                 <div class="item">
-                    <img src="https://www.openedu.tw/media/img/index/banner/banner2_FRMIAiM.png" alt="">
+                  <img src="https://i.ibb.co/gdpScGT/1.png" alt="1" border="0">
                 </div>
             </div>
             <div class="buttons">
@@ -102,7 +107,7 @@
                 <label for="discovery-input" class="sr">${_('Search for a course')}</label>
                 <div class="button-holder">
                   <button type="submit" class="button postfix discovery-submit" title="${_('Search')}">
-                    Search
+                    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-search"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" /><path d="M21 21l-6 -6" /></svg>
                   </button>
                 </div>
                 <div class="input-holder">
